@@ -1,4 +1,6 @@
-from alchemy import healing_potion as heal
-from alchemy import strength_potion
-print(strength_potion())
-print(heal())
+import alchemy
+
+print("=== Distillation 1 ===")
+print("Using: 'import alchemy' structure to access potions")
+print(f"Testing strength_potion: {alchemy.strength_potion()}")
+print(f"Testing heal alias: {alchemy.heal()}")
